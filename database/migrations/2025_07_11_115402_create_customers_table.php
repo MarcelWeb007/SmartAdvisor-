@@ -15,9 +15,11 @@ return new class extends Migration
             $table->id();
             $table->foreignId('company_id');
             $table->string('name');
+            $table->string('name_index');
             $table->string('email')->nullable()->unique();
             $table->string('phone')->nullable();
             $table->string('company')->nullable();
+            $table->string('company_index')->nullable();
             $table->text('notes')->nullable();
             $table->timestamps();
         });

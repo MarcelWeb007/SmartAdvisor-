@@ -15,8 +15,11 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('name');
+            $table->string('name_index')->nullable();
             $table->string('type');
+            $table->string('type_index')->nullable();
             $table->string('industry')->nullable();
+            $table->string('industry_index')->nullable();
             $table->string('logo_path')->nullable();
             $table->timestamps();
         });
