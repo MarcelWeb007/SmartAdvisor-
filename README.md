@@ -1,6 +1,6 @@
-# AssoSmart
+# EntreSmart
 
-**AssoSmart** est une application web développée avec Laravel et Livewire qui permet aux petites entreprises ou freelances de suivre leurs données métier (ventes, dépenses, clients, etc.) tout en recevant des **recommandations intelligentes** générées par une IA.
+**EntreSmart** est une application web développée avec Laravel et Livewire qui permet aux petites entreprises ou freelances de suivre leurs données métier (ventes, dépenses, clients, etc.) tout en recevant des **recommandations intelligentes** générées par une IA.
 
 ## 🚀 Objectifs du projet
 
