@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('name');
             $table->string('name_index')->nullable();
             $table->string('type');
-            $table->string('type_index')->nullable();
             $table->string('industry')->nullable();
             $table->string('industry_index')->nullable();
             $table->string('logo_path')->nullable();

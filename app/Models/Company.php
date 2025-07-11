@@ -25,7 +25,6 @@ class Company extends Model
 
     protected array $indexable = [
         'name', // Added indexable attribute for name
-        'type', // Added indexable attribute for type
         'industry', // Added indexable attribute for industry
     ];
 
